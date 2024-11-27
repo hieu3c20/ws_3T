@@ -1,0 +1,345 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FINA.BusinessTripProvider
+</name>
+</assembly>
+<members>
+<member name="T:Provider.tblBTWifiDeviceInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.mDestinationInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.tblBTRegisterAttachmentInfo">
+	<summary>
+ The Info class for 
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.mBatchNameInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.mMovingTimeAllowanceInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.mInvoiceItemInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.tblBTExpenseOtherInfo">
+	<summary>
+ The Info class for 
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.tblBTInvoiceInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.RoleType_Info">
+	<summary>
+ The Info class for tbl_Users
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.ReportInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="P:My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Provider.tblBTRegisterScheduleInfo">
+	<summary>
+ The Info class for 
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.mExpenseInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.mCompanyInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.mOraDailyRateInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.mAirPeriodInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.tblBTRegisterInfo">
+	<summary>
+ The Info class for tbl_BT_Register
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.mOraSupplierInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.mBudgetPICInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.tblBTExpenseInfo">
+	<summary>
+ The Info class for tbl_BT_Register
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.tblBTRegisterRequestInfo">
+	<summary>
+ The Info class for tbl_Users
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.mCountryGroupInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.tblBTExpenseScheduleInfo">
+	<summary>
+ The Info class for 
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.mTimeKeeperInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.tbl_LookupInfo">
+	<summary>
+ The Info class for tbl_Lookup
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.mDestinationGroupInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.mCountryInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.tbl_UsersInfo">
+	<summary>
+ The Info class for tbl_Users
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.mTitleGroupInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.tblBTAirTicketInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.tblBTExpenseRequestInfo">
+	<summary>
+ The Info class for tbl_Users
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.mBudgetInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="T:Provider.tblBTRegisterRequestDetailsInfo">
+	<summary>
+	</summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member><member name="M:Provider.CommonFunction.JS_Click(System.Web.UI.UserControl,System.String)">
+	<summary>
+ Do click on HTML element 
+ </summary>
+	<param name="uc"></param>
+	<param name="selector">jquery selector</param>
+</member><member name="M:Provider.CommonFunction.JS_ShowComponent(System.Web.UI.UserControl,System.String)">
+	<summary>
+ Display HTML tag with specific identify
+ </summary>
+	<param name="uc"></param>
+	<param name="id">Client ID</param>
+</member><member name="T:Provider.RoleLevel_Info">
+	<summary>
+ The Info class for tbl_Users
+ </summary>
+	<remarks>
+	</remarks>
+	<history>
+	</history>
+ -----------------------------------------------------------------------------
+
+</member>
+</members>
+</doc>

@@ -1,0 +1,208 @@
+/* 
+    Document   : default
+    Created on : Oct 15, 2013, 10:02:17 AM
+    Author     : vtit
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.column_NOP{
+}
+
+.column_20{
+    width: 20px;
+}
+
+.column_30{
+    width: 20px;
+}
+
+.column_40{
+    width: 40px;
+}
+
+.column_60{
+    width: 60px;
+}
+
+.column_80{
+    width: 80px;
+}
+
+.column_100{
+    width: 100px;
+}
+
+.column_200{
+    width: 200px;
+}
+
+.column_300{
+    width: 300px;
+}
+
+.column_400{
+    width: 400px;
+}
+
+.column_500{
+    width: 500px;
+}
+
+/* Customize jQueryUI Tooltip, Big thanks to Ms.Giang */
+.ui-tooltip li{
+    list-style-position: inside;
+}
+
+.ui-tooltip{
+    z-index: 1000;
+}
+
+/* Calendar fix UI display*/
+.ui-inputfield { 
+    padding: 1px 0 1px 0 !important;
+}
+
+.lookup-td-label {
+    width: 15%;
+}
+
+.output-column-label {
+    width: 15%;
+}
+
+.lookup-td-value {
+    width: 30%;
+}
+
+.small-lookup-td {
+    text-align: justify;
+}
+
+.lookup-input {
+    width: 90%;
+    padding: 0;
+}
+
+.lookup-input-order {
+    text-align: center; font-weight: bold;
+}
+
+#report_search{
+    float: left;
+    width: 100%;
+}
+#report_search_fieldset{
+    background-color: white;
+}
+#report_detail_fieldset{
+    float:left !important;
+    background-color: white;
+    width:95%;
+}
+#reportData{
+    height: auto; 
+    background-color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.report_legend{
+    color:#84A9CF;
+}
+
+
+.ui-button-text-icon-left .ui-button-text {
+    padding: 0.4em 1.4em 0.4em 2.1em;
+}
+.vtop {
+    vertical-align: top;
+}
+
+.fileupload-buttonbar .ui-button input {
+    border-image: none;
+    cursor: pointer;
+    direction: ltr;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    z-index: 9999;
+    opacity: 1 !important;
+}
+
+.fileupload-buttonbar {
+    padding: 0.2em 0.4em 0 0;
+}
+
+.fileupload-buttonbar .ui-button {
+	width: 200px;
+}
+
+.ui-button {
+	text-align: left !important;
+}
+
+
+.pe-dynaform-label {
+	vertical-align: top !important;
+}
+
+.pe-dynaform-grid {
+	margin-top:10px !important;
+}
+.fileupload-buttonbar {
+    background: transparent none;
+    border: none;
+}
+.fileupload-content {
+    display: none;
+}
+
+#searchContainer {
+    text-align: center;
+}
+
+.searchText {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    -moz-box-flex: 1;
+    /*background: none repeat scroll 0 0 padding-box hsla(0, 0%, 100%, 0.9);*/
+    border-color: hsla(210, 54%, 20%, 0.15) hsla(210, 54%, 20%, 0.17) hsla(210, 54%, 20%, 0.2);
+    /*border-image: none;*/
+    /*border-radius: 2.5px 0 0 2.5px;*/
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 hsla(210, 65%, 9%, 0.02) inset, 0 0 2px hsla(210, 65%, 9%, 0.1) inset, 0 1px 0 hsla(0, 0%, 100%, 0.2);
+    padding: 6px 8px;
+    font-size: large;
+}
+
+.searchSubmit {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-start: 1px solid transparent;
+    -moz-border-top-colors: none;
+    -moz-margin-start: -1px;
+    /*background: linear-gradient(hsla(0, 0%, 100%, 0.8), hsla(0, 0%, 100%, 0.1)) repeat scroll 0 0 padding-box rgba(0, 0, 0, 0);*/
+    border-color: hsla(210, 54%, 20%, 0.15) hsla(210, 54%, 20%, 0.17) hsla(210, 54%, 20%, 0.2);
+    /*border-image: none;*/
+    /*border-radius: 0 2.5px 2.5px 0;*/
+    border-style: solid;
+    border-width: 1px;
+    /*box-shadow: 0 0 2px hsla(0, 0%, 100%, 0.5) inset, 0 1px 0 hsla(0, 0%, 100%, 0.2);*/
+    cursor: pointer;
+    padding: 8px 9px;
+}
+
+.searchSubmit:hover {
+    background-image: linear-gradient(#66bdff, #0d9eff);
+    /*box-shadow: 0 1px 0 hsla(0, 0%, 100%, 0.2) inset, 0 0 0 1px hsla(0, 0%, 100%, 0.1) inset, 0 1px 0 hsla(210, 54%, 20%, 0.03), 0 0 4px hsla(206, 100%, 20%, 0.2);*/
+    border-color: #59b5fc #45a3e7 #3294d5;
+    color: white;
+}

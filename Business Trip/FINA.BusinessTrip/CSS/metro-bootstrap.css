@@ -1,0 +1,115 @@
+.metro .button
+{
+	padding: 4px 12px;
+	text-align: center;
+	vertical-align: middle !important;
+	background-color: #d9d9d9;
+	border: 1px transparent solid;
+	color: #222222;
+	border-radius: 0;
+	cursor: pointer;
+	display: inline-block;
+	outline: none;
+	font-size: inherit !important; /*line-height: 16px;*/
+	margin: auto;
+}
+.metro .button.default
+{
+	background-color: #008287;
+	color: #fff;
+}
+.metro .button:focus
+{
+	outline: 0;
+	border: 1px #353535 dotted;
+}
+.metro .button:disabled, .metro .button.disabled
+{
+	background-color: #eaeaea !important;
+	color: #bebebe !important;
+	cursor: not-allowed !important;
+}
+.metro .button *
+{
+	color: inherit;
+}
+.metro .button *:hover
+{
+	color: inherit;
+}
+.metro a.button:hover
+{
+	color: inherit;
+}
+.metro a.button *
+{
+	color: inherit;
+}
+.metro a.button *:hover
+{
+	color: inherit;
+}
+.metro .button.primary
+{
+	background-color: #16499a !important;
+	color: #ffffff !important;
+}
+.metro .button.info
+{
+	background-color: #4390df !important;
+	color: #ffffff !important;
+}
+.metro .button.success
+{
+	background-color: #60a917 !important;
+	color: #ffffff !important;
+}
+.metro .button.warning
+{
+	background-color: #fa6800 !important;
+	color: #ffffff !important;
+}
+.metro .button.danger
+{
+	background-color: #9a1616 !important;
+	color: #ffffff !important;
+}
+.metro .button.inverse
+{
+	background-color: #1d1d1d !important;
+	color: #ffffff !important;
+}
+.metro .button.link
+{
+	background-color: transparent !important;
+	color: #2e92cf !important;
+}
+.metro .button.link:hover
+{
+	text-decoration: underline;
+}
+.metro .button.link:disabled, .metro .button.link.disabled
+{
+	background-color: transparent !important;
+	color: #bebebe !important;
+	cursor: not-allowed !important;
+}
+.metro .button.link [
+class*="icon-"]
+{
+	text-decoration: none !important;
+}
+.metro .navigation-bar-content .button, .metro .navbar-content .button, .metro .navigation-bar-content .image-button, .metro .navbar-content .image-button
+{
+	background-color: transparent;
+}
+.metro .navigation-bar-content .button, .metro .navbar-content .button
+{
+	margin-top: -14px;
+	background-color: inherit;
+}
+
+.metro .text-center
+{
+	text-align: center;
+}

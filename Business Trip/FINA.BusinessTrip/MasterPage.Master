@@ -1,0 +1,83 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="MasterPage.master.vb"
+    Inherits="MasterPage" %>
+
+<%@ Register TagPrefix="uc" TagName="head" Src="~/Control/UcHead.ascx" %>
+<%@ Register TagPrefix="uc" TagName="header" Src="~/Control/UcHeader.ascx" %>
+<%@ Register TagPrefix="uc" TagName="sidebar" Src="~/Control/UcSidebar.ascx" %>
+<%@ Register TagPrefix="uc" TagName="footer" Src="~/Control/UcFooter.ascx" %>
+<%@ Register TagPrefix="uc" TagName="script" Src="~/Control/UcScript.ascx" %>
+<!DOCTYPE html >
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="shortcut icon" href="/images/icon.ico" />
+    <uc:head runat="server" ID="Head"></uc:head>
+    <asp:ContentPlaceHolder runat="server" ID="HeadPlaceHolder">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="metro" onload="$('#overlay-panel').remove()">
+    <img src="/images/tooltip-arrow.png" style="display: none" alt="tooltip-arrow" />
+    <div id="overlay-panel" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+        background-color: while; background-color: rgba(255, 255, 255, 0.3); z-index: 10000;">
+    </div>
+    <form runat="server" id="frm" enctype="multipart/form-data">
+    <asp:ScriptManager runat="server" AsyncPostBackTimeout="3600">
+    </asp:ScriptManager>
+    <asp:UpdateProgress ID="UpdateProgress" runat="server" DisplayAfter="0">
+        <ProgressTemplate>
+            <div style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: while;
+                background-color: rgba(255, 255, 255, 0.3); z-index: 10000;">
+            </div>
+            <div style="position: fixed; top: 0; right: 0; width: 32px; height: 32px; padding: 5px;
+                background: url(/images/ajax-loading.gif) center center no-repeat; background-color: rgba(0, 0, 0, 0.6);
+                z-index: 10001; box-shadow: 0 0 10px #666; -webkit-box-shadow: 0 0 10px #666;
+                -moz-box-shadow: 0 0 10px #666; border-radius: 30px; -webkit-border-radius: 30px;
+                -moz-border-radius: 30px;">
+            </div>
+        </ProgressTemplate>
+    </asp:UpdateProgress>
+    <div id="wrapper">
+        <div id="wrapper2">
+            <uc:header runat="server" ID="Header"></uc:header>
+            <div id="main">
+                <uc:sidebar runat="server" ID="Sidebar"></uc:sidebar>
+                <div class="box_cm_shadow">
+                    <div id="content">
+                        <div class="contextual">
+                            <h2 id="page-title">
+                                <asp:ContentPlaceHolder runat="server" ID="TitlePlaceHolder">
+                                </asp:ContentPlaceHolder>
+                            </h2>
+                        </div>
+                        <div id="messages" class="ui-messages ui-widget" aria-live="polite">
+                        </div>
+                        <asp:ContentPlaceHolder runat="server" ID="MainContentPlaceHolder">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </div>
+            </div>
+            <uc:footer runat="server" ID="Footer"></uc:footer>
+        </div>
+    </div>
+    <asp:Panel runat="server" ID="GlobalMessage" CssClass="global-message" Visible="false">
+        <div class="message-container">
+            <div style="margin-bottom: 20px">
+                <asp:Label runat="server" ID="lblMessage" CssClass="warning-message"></asp:Label>
+            </div>
+            <div onclick="HideGlobalMessage()" class="btn secondary" style="float: right; margin-left: 5px;">
+                <span>Close</span>
+            </div>
+            <div class="btn" style="float: right;">
+                <span><a href="/User/ChangePass.aspx" style="color: #fff">Change Password</a></span>
+            </div>
+            <div style="clear: both">
+            </div>
+            <i class="close-global" onclick="HideGlobalMessage()"></i>
+        </div>
+    </asp:Panel>
+    </form>
+    <uc:script runat="server" ID="Script"></uc:script>
+    <asp:ContentPlaceHolder runat="server" ID="ScriptPlaceHolder">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

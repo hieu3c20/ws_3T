@@ -1,0 +1,847 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1C9159A5-64BB-41FE-A397-AA74538A8D13}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>FINA.BusinessTrip</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkSubset>
+    </TargetFrameworkSubset>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>FINA.BusinessTrip.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>FINA.BusinessTrip.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v12.2.Core, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v12.2.Core, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.ASPxThemes.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Web.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Web.v12.2\12.2.6.0__b88d1754d700e49a\DevExpress.Web.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="GemBox.Spreadsheet, Version=40.1.0.86, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="System" />
+    <Reference Include="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="Telerik.Web.Design, Version=2010.3.1109.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Telerik.Web.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2010.3.1109.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="js\jquery\jquery.dataTables.js" />
+    <Content Include="js\jquery\jquery.easing.1.3.min.js" />
+    <Content Include="js\jquery\jquery.min.js" />
+    <Content Include="js\jquery\jquery.mousewheel.js" />
+    <Content Include="js\jquery\jquery.widget.min.js" />
+    <Compile Include="AjaxHandle.ashx.vb">
+      <DependentUpon>AjaxHandle.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="BTAdvanceDeclaration.aspx.designer.vb">
+      <DependentUpon>BTAdvanceDeclaration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTAdvanceDeclaration.aspx.vb">
+      <DependentUpon>BTAdvanceDeclaration.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Control\UcFileManager.ascx.designer.vb">
+      <DependentUpon>UcFileManager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\UcFileManager.ascx.vb">
+      <DependentUpon>UcFileManager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BTExpenseDeclaration.aspx.designer.vb">
+      <DependentUpon>BTExpenseDeclaration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTExpenseDeclaration.aspx.vb">
+      <DependentUpon>BTExpenseDeclaration.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BTOneDayDeclaration.aspx.designer.vb">
+      <DependentUpon>BTOneDayDeclaration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTOneDayDeclaration.aspx.vb">
+      <DependentUpon>BTOneDayDeclaration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BTInvoicing.aspx.designer.vb">
+      <DependentUpon>BTInvoicing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTInvoicing.aspx.vb">
+      <DependentUpon>BTInvoicing.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BTAirTicket.aspx.designer.vb">
+      <DependentUpon>BTAirTicket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTAirTicket.aspx.vb">
+      <DependentUpon>BTAirTicket.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BTOneDayExpenseDeclaration.aspx.designer.vb">
+      <DependentUpon>BTOneDayExpenseDeclaration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTOneDayExpenseDeclaration.aspx.vb">
+      <DependentUpon>BTOneDayExpenseDeclaration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BTAirTicketRequest.aspx.designer.vb">
+      <DependentUpon>BTAirTicketRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTAirTicketRequest.aspx.vb">
+      <DependentUpon>BTAirTicketRequest.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BTAirTicketRequestGA.aspx.designer.vb">
+      <DependentUpon>BTAirTicketRequestGA.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTAirTicketRequestGA.aspx.vb">
+      <DependentUpon>BTAirTicketRequestGA.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BTWifiDevice.aspx.designer.vb">
+      <DependentUpon>BTWifiDevice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTWifiDevice.aspx.vb">
+      <DependentUpon>BTWifiDevice.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="BTWifiDevicePre.aspx.designer.vb">
+      <DependentUpon>BTWifiDevicePre.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BTWifiDevicePre.aspx.vb">
+      <DependentUpon>BTWifiDevicePre.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmResetPass.aspx.designer.vb">
+      <DependentUpon>ConfirmResetPass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmResetPass.aspx.vb">
+      <DependentUpon>ConfirmResetPass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResetPass.aspx.designer.vb">
+      <DependentUpon>ResetPass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ResetPass.aspx.vb">
+      <DependentUpon>ResetPass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SendAccountsEmail.aspx.designer.vb">
+      <DependentUpon>SendAccountsEmail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SendAccountsEmail.aspx.vb">
+      <DependentUpon>SendAccountsEmail.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Report.aspx.designer.vb">
+      <DependentUpon>Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Report.aspx.vb">
+      <DependentUpon>Report.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FiBudgetChecking.aspx.designer.vb">
+      <DependentUpon>FiBudgetChecking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FiBudgetChecking.aspx.vb">
+      <DependentUpon>FiBudgetChecking.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="GAAdvanceMgmt.aspx.designer.vb">
+      <DependentUpon>GAAdvanceMgmt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GAAdvanceMgmt.aspx.vb">
+      <DependentUpon>GAAdvanceMgmt.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FiExpenseMgmt.aspx.designer.vb">
+      <DependentUpon>FiExpenseMgmt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FiExpenseMgmt.aspx.vb">
+      <DependentUpon>FiExpenseMgmt.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="FiAdvanceMgmt.aspx.designer.vb">
+      <DependentUpon>FiAdvanceMgmt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FiAdvanceMgmt.aspx.vb">
+      <DependentUpon>FiAdvanceMgmt.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="ImportAjaxHandle.ashx.vb">
+      <DependentUpon>ImportAjaxHandle.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="FAQ.aspx.designer.vb">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FAQ.aspx.vb">
+      <DependentUpon>FAQ.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Download.aspx.designer.vb">
+      <DependentUpon>Download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Download.aspx.vb">
+      <DependentUpon>Download.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Demo.aspx.designer.vb">
+      <DependentUpon>Demo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Demo.aspx.vb">
+      <DependentUpon>Demo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="DemoGrid.aspx.designer.vb">
+      <DependentUpon>DemoGrid.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DemoGrid.aspx.vb">
+      <DependentUpon>DemoGrid.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData.aspx.designer.vb">
+      <DependentUpon>MasterData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData.aspx.vb">
+      <DependentUpon>MasterData.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="HrManagement.aspx.designer.vb">
+      <DependentUpon>HrManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HrManagement.aspx.vb">
+      <DependentUpon>HrManagement.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="imagehandle.ashx.vb">
+      <DependentUpon>imagehandle.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.vb">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="User\ChangePass.aspx.designer.vb">
+      <DependentUpon>ChangePass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\ChangePass.aspx.vb">
+      <DependentUpon>ChangePass.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Control\UcFooter.ascx.designer.vb">
+      <DependentUpon>UcFooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\UcFooter.ascx.vb">
+      <DependentUpon>UcFooter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\UcHead.ascx.designer.vb">
+      <DependentUpon>UcHead.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\UcHead.ascx.vb">
+      <DependentUpon>UcHead.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\UcHeader.ascx.designer.vb">
+      <DependentUpon>UcHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\UcHeader.ascx.vb">
+      <DependentUpon>UcHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\UcScript.ascx.designer.vb">
+      <DependentUpon>UcScript.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\UcScript.ascx.vb">
+      <DependentUpon>UcScript.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Control\UcSidebar.ascx.designer.vb">
+      <DependentUpon>UcSidebar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\UcSidebar.ascx.vb">
+      <DependentUpon>UcSidebar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Control\UcPaging.ascx.designer.vb">
+      <DependentUpon>UcPaging.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Control\UcPaging.ascx.vb">
+      <DependentUpon>UcPaging.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage.Master.designer.vb">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.Master.vb">
+      <DependentUpon>MasterPage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="User\UserInfo.aspx.designer.vb">
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserInfo.aspx.vb">
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="User\CreateUser.aspx.designer.vb">
+      <DependentUpon>CreateUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\CreateUser.aspx.vb">
+      <DependentUpon>CreateUser.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="User\UserProfile.aspx.designer.vb">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\UserProfile.aspx.vb">
+      <DependentUpon>UserProfile.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Web References\TMVEmailService\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Control\UcPaging.ascx" />
+    <Content Include="js\metro\metro-accordion.js" />
+    <Content Include="js\metro\metro-button-set.js" />
+    <Content Include="js\metro\metro-calendar.js" />
+    <Content Include="js\metro\metro-carousel.js" />
+    <Content Include="js\metro\metro-core.js" />
+    <Content Include="js\metro\metro-countdown.js" />
+    <Content Include="js\metro\metro-date-format.js" />
+    <Content Include="js\metro\metro-datepicker.js" />
+    <Content Include="js\metro\metro-dialog.js" />
+    <Content Include="js\metro\metro-drag-tile.js" />
+    <Content Include="js\metro\metro-dropdown.js" />
+    <Content Include="js\metro\metro-fluentmenu.js" />
+    <Content Include="js\metro\metro-global.js" />
+    <Content Include="js\metro\metro-hint.js" />
+    <Content Include="js\metro\metro-initiator.js" />
+    <Content Include="js\metro\metro-input-control.js" />
+    <Content Include="js\metro\metro-listview.js" />
+    <Content Include="js\metro\metro-live-tile.js" />
+    <Content Include="js\metro\metro-loader.js" />
+    <Content Include="js\metro\metro-locale.js" />
+    <Content Include="js\metro\metro-notify.js" />
+    <Content Include="js\metro\metro-panel.js" />
+    <Content Include="js\metro\metro-plugin-template.js" />
+    <Content Include="js\metro\metro-progressbar.js" />
+    <Content Include="js\metro\metro-pull.js" />
+    <Content Include="js\metro\metro-rating.js" />
+    <Content Include="js\metro\metro-scroll.js" />
+    <Content Include="js\metro\metro-slider.js" />
+    <Content Include="js\metro\metro-stepper.js" />
+    <Content Include="js\metro\metro-streamer.js" />
+    <Content Include="js\metro\metro-tab-control.js" />
+    <Content Include="js\metro\metro-table.js" />
+    <Content Include="js\metro\metro-tile-transform.js" />
+    <Content Include="js\metro\metro-times.js" />
+    <Content Include="js\metro\metro-touch-handler.js" />
+    <Content Include="js\metro\metro-treeview.js" />
+    <Content Include="js\metro\metro-wizard.js" />
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AjaxHandle.ashx" />
+    <Content Include="BTOneDayDeclaration.aspx" />
+    <Content Include="BTInvoicing.aspx" />
+    <Content Include="BTAirTicket.aspx" />
+    <Content Include="BTOneDayExpenseDeclaration.aspx" />
+    <Content Include="BTAirTicketRequest.aspx" />
+    <Content Include="BTAirTicketRequestGA.aspx" />
+    <Content Include="BTWifiDevice.aspx" />
+    <Content Include="BTWifiDevicePre.aspx" />
+    <Content Include="ConfirmResetPass.aspx" />
+    <Content Include="ResetPass.aspx" />
+    <Content Include="images\app\profile.png" />
+    <Content Include="images\back.png" />
+    <Content Include="images\cancel-black.png" />
+    <Content Include="images\confirm.png" />
+    <Content Include="images\device.png" />
+    <Content Include="images\eraser.png" />
+    <Content Include="images\guard.png" />
+    <Content Include="images\OK.png" />
+    <Content Include="images\recall.png" />
+    <Content Include="images\rejectC.png" />
+    <Content Include="js\bt-air-ticket-request.js" />
+    <Content Include="js\bt-wifi-device.js" />
+    <Content Include="js\bt-wifi-device-pre.js" />
+    <Content Include="SendAccountsEmail.aspx" />
+    <Content Include="images\excel-32-hover.png" />
+    <Content Include="images\excel-32.png" />
+    <Content Include="js\report.js" />
+    <Content Include="Report.aspx" />
+    <Content Include="FiBudgetChecking.aspx" />
+    <Content Include="GAAdvanceMgmt.aspx" />
+    <Content Include="FiExpenseMgmt.aspx" />
+    <Content Include="FiAdvanceMgmt.aspx" />
+    <Content Include="images\bts-login-sub.png" />
+    <Content Include="images\bts-login.png" />
+    <Content Include="images\copy.png" />
+    <Content Include="images\download-hover.png" />
+    <Content Include="images\download.png" />
+    <Content Include="images\finance.png" />
+    <Content Include="images\ga.png" />
+    <Content Include="images\gad.png" />
+    <Content Include="images\hr.png" />
+    <Content Include="images\icon.ico" />
+    <Content Include="images\logo-toyota.png" />
+    <Content Include="images\oneday-bt.png" />
+    <Content Include="images\oraError.png" />
+    <Content Include="images\overnight-bt.png" />
+    <Content Include="images\plus-inside.png" />
+    <Content Include="images\plus_b.png" />
+    <Content Include="images\approve_b.png" />
+    <Content Include="images\approve.png" />
+    <Content Include="images\cancel.png" />
+    <Content Include="images\edit.png" />
+    <Content Include="images\export.png" />
+    <Content Include="images\info.png" />
+    <Content Include="images\login.png" />
+    <Content Include="images\plus_b1.png" />
+    <Content Include="images\reApproval.png" />
+    <Content Include="images\reject_b.png" />
+    <Content Include="images\save.png" />
+    <Content Include="images\save_go.png" />
+    <Content Include="images\sub-inside.png" />
+    <Content Include="images\tooltip-arrow.png" />
+    <Content Include="images\trash.png" />
+    <Content Include="images\triangle-error.png" />
+    <Content Include="images\triangle.png" />
+    <Content Include="ImportAjaxHandle.ashx" />
+    <None Include="CSS\fonts\7xkFOeTxxO1GMC1suOUYWWhBabBbEjGd1iRmpyoZukE.woff" />
+    <None Include="CSS\fonts\DXI1ORHCpsQm3Vp6mXoaTZ1r3JsPcQLi8jytr04NNhU.woff" />
+    <None Include="CSS\fonts\iconFont.eot" />
+    <None Include="CSS\fonts\iconFont.json" />
+    <None Include="CSS\fonts\iconFont.ttf" />
+    <None Include="CSS\fonts\iconFont.woff" />
+    <None Include="CSS\fonts\k3k702ZOKiLJc3WVjuplzJ1r3JsPcQLi8jytr04NNhU.woff" />
+    <None Include="CSS\fonts\K88pR3goAWT7BTt32Z01mz8E0i7KZn-EPnyo3HZu7kw.woff" />
+    <None Include="CSS\fonts\metroSysIcons.ttf" />
+    <None Include="CSS\fonts\metroSysIcons.woff" />
+    <Content Include="Control\UcFileManager.ascx" />
+    <Content Include="BTExpenseDeclaration.aspx" />
+    <Content Include="FAQ.aspx" />
+    <Content Include="Download.aspx" />
+    <Content Include="Demo.aspx" />
+    <Content Include="DemoGrid.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="images\approval.png" />
+    <Content Include="images\btn-warning-bg.png" />
+    <Content Include="images\cloud-download.png" />
+    <Content Include="images\edit_add.png" />
+    <Content Include="images\Excel.png" />
+    <Content Include="images\FAQ.png" />
+    <Content Include="images\Gradient Full Colour_Horizontal.png" />
+    <Content Include="images\master-data.png" />
+    <Content Include="images\money-register.png" />
+    <Content Include="images\money.png" />
+    <Content Include="images\plus-inside_b.png" />
+    <Content Include="images\plusremove.png" />
+    <Content Include="images\quick-link.png" />
+    <Content Include="images\reject.png" />
+    <Content Include="images\sub-inside_b.png" />
+    <Content Include="images\traffic_lights.png" />
+    <Content Include="images\trash_empty.png" />
+    <Content Include="images\view.png" />
+    <Content Include="images\viewDetails.png" />
+    <Content Include="js\bt-approval-register.js" />
+    <Content Include="js\bt-expense-declaration.js" />
+    <Content Include="js\bt-oneday-register.js" />
+    <Content Include="js\bt-invoicing.js" />
+    <Content Include="js\bt-air-ticket.js" />
+    <Content Include="js\bt-oneday-expense-register.js" />
+    <Content Include="js\master-data.js" />
+    <Content Include="js\ga-advance-mgmt.js" />
+    <Content Include="js\fi-budget-checking.js" />
+    <Content Include="js\fi-expense-mgmt.js" />
+    <Content Include="js\fi-advance-mgmt.js" />
+    <Content Include="js\metro\Microsoft.Vbe.Interop.dll" />
+    <Content Include="Library\DevExpress.Data.v12.2.dll" />
+    <Content Include="Library\DevExpress.Printing.v12.2.Core.dll" />
+    <Content Include="Library\DevExpress.RichEdit.v12.2.Core.dll" />
+    <Content Include="Library\DevExpress.Web.ASPxThemes.v12.2.dll" />
+    <Content Include="Library\DevExpress.Web.v12.2.dll" />
+    <Content Include="Library\GemBox.Spreadsheet.dll" />
+    <Content Include="Library\Microsoft.ApplicationBlocks.Data.dll" />
+    <Content Include="Library\Microsoft.Office.Interop.Excel.dll" />
+    <Content Include="Library\QRCode.dll" />
+    <Content Include="Library\Telerik.Web.Design.dll" />
+    <Content Include="Library\Telerik.Web.UI.dll" />
+    <Content Include="MasterData.aspx" />
+    <Content Include="HrManagement.aspx" />
+    <Content Include="imagehandle.ashx" />
+    <None Include="Download\bt-schedule-template.xlt" />
+    <None Include="Download\bt_expense_international_template.xlt" />
+    <None Include="Download\bt_expense_template.xlt" />
+    <None Include="Download\BusinessPolicy_Annex_I_%28EN%29.pdf" />
+    <None Include="Download\BusinessPolicy_Annex_I_%28VN%29.pdf" />
+    <None Include="Download\BusinessPolicy_Annex_II_%28EN%29.pdf" />
+    <None Include="Download\BusinessPolicy_Annex_II_%28VN%29.pdf" />
+    <None Include="Download\BusinessPolicy_EN.pdf" />
+    <None Include="Download\BusinessPolicy_VN.pdf" />
+    <None Include="Download\car_usage_request.pdf" />
+    <None Include="Download\Document\Account_Delegation_Registration_Form.doc" />
+    <None Include="Download\Document\BTS_UserManual_EN.docx" />
+    <None Include="Download\Document\BTS_UserManual_JP.docx" />
+    <None Include="Download\Document\BTS_UserManual_VN.docx" />
+    <None Include="Download\Document\Business_Trip_Procedure_EN.PDF" />
+    <None Include="Download\Document\Business_Trip_Procedure_VN.PDF" />
+    <None Include="Download\Meal_allowance_decision.pdf" />
+    <None Include="Download\one_day_bt_template.xlt" />
+    <None Include="Download\overnight_bt_international_template.xlt" />
+    <None Include="Download\overnight_bt_template.xlt" />
+    <None Include="Export\Template\bt-schedule-template.xlt" />
+    <None Include="Export\Template\bt_expense_template.xlt" />
+    <None Include="Export\Template\bt_expense_international_template.xlt" />
+    <None Include="Export\Template\import_other_airticket_template.xlt" />
+    <None Include="Export\Template\import_airticket_template.xlt" />
+    <None Include="Export\Template\overnight_bt_international_template.xlt" />
+    <None Include="Export\Template\one_day_bt_template.xlt" />
+    <None Include="Export\Template\overnight_bt_template.xlt" />
+    <None Include="Export\Template\Report\advance_report.xlt" />
+    <None Include="Export\Template\Report\advance_clear_report.xlt" />
+    <None Include="Export\Template\Report\noadvance_clear_report.xlt" />
+    <None Include="Export\Template\Report\expense_report.xlt" />
+    <None Include="Export\Template\Report\airticket_report.xlt" />
+    <None Include="Export\Template\Report\wifi_report.xlt" />
+    <None Include="js\metro\README.md" />
+    <Content Include="BTAdvanceDeclaration.aspx" />
+    <Content Include="CSS\devexpress.css" />
+    <Content Include="images\ajax-loading.gif" />
+    <Content Include="images\board-bg.png" />
+    <Content Include="images\btn-primary-bg.png" />
+    <Content Include="images\btn-secondary-bg.png" />
+    <Content Include="images\change_password.png" />
+    <Content Include="images\check-check.png" />
+    <Content Include="images\check.png" />
+    <Content Include="images\close.png" />
+    <Content Include="images\DXR.gif" />
+    <Content Include="images\edit_add1.png" />
+    <Content Include="images\inform-btn.png" />
+    <Content Include="images\Logout.png" />
+    <Content Include="images\plus.png" />
+    <Content Include="images\profile.png" />
+    <Content Include="images\rad-check.png" />
+    <Content Include="images\rad.png" />
+    <Content Include="images\toolbar_find.png" />
+    <Content Include="images\UserInfo.png" />
+    <Content Include="js\jquery\jquery.autocomplete.js" />
+    <Content Include="js\jquery\jquery.autocomplete.css" />
+    <Content Include="Logout.aspx" />
+    <Content Include="User\ChangePass.aspx" />
+    <Content Include="Control\UcFooter.ascx" />
+    <Content Include="Control\UcHead.ascx" />
+    <Content Include="Control\UcHeader.ascx" />
+    <Content Include="Control\UcScript.ascx" />
+    <Content Include="Control\UcSidebar.ascx" />
+    <Content Include="CSS\application.css" />
+    <Content Include="CSS\Button.css" />
+    <Content Include="CSS\common.css" />
+    <Content Include="CSS\customized_primefaces.css" />
+    <Content Include="CSS\default.css" />
+    <Content Include="CSS\DetailsView.css" />
+    <Content Include="CSS\fieldset.css" />
+    <Content Include="CSS\fileupload.css" />
+    <Content Include="CSS\fonts\iconFont.dev.svg" />
+    <Content Include="CSS\fonts\iconFont.svg" />
+    <Content Include="CSS\fonts\metroSysIcons.svg" />
+    <Content Include="CSS\GridView.css" />
+    <Content Include="CSS\iconFont.css" />
+    <Content Include="CSS\Input.css" />
+    <Content Include="CSS\jquery-date-picker.css" />
+    <Content Include="CSS\LinkButton.css" />
+    <Content Include="CSS\Login.css" />
+    <Content Include="CSS\Menu.css" />
+    <Content Include="CSS\metro-bootstrap-calendar.css" />
+    <Content Include="CSS\metro-bootstrap.css" />
+    <Content Include="CSS\primefaces.css" />
+    <Content Include="CSS\TreeView.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\account-menu-bg.png" />
+    <Content Include="images\bank.png" />
+    <Content Include="images\bg-header.png" />
+    <Content Include="images\bg-tab-hover.png" />
+    <Content Include="images\bg-tab.png" />
+    <Content Include="images\btn-bg-hover.png" />
+    <Content Include="images\btn-bg.png" />
+    <Content Include="images\calendar1_add.png" />
+    <Content Include="images\divider.png" />
+    <Content Include="images\icon-plus-active.png" />
+    <Content Include="images\icon-plus.png" />
+    <Content Include="images\logo-toyota_old.png" />
+    <Content Include="images\hamburger.png" />
+    <Content Include="images\menuthumb-fortuner.png" />
+    <Content Include="images\menuthumb-land-cruiser.png" />
+    <Content Include="images\menuthumb-toyota86.png" />
+    <Content Include="images\menuthumb-vios.png" />
+    <Content Include="images\moving-car.gif" />
+    <Content Include="images\moving-plane.gif" />
+    <Content Include="images\notebook_accept.png" />
+    <Content Include="images\red-arrow.png" />
+    <Content Include="images\rent_a_car.png" />
+    <Content Include="images\si12.jpg" />
+    <Content Include="images\si12.png" />
+    <Content Include="images\si121new.jpg" />
+    <Content Include="images\si2.jpg" />
+    <Content Include="images\si2.png" />
+    <Content Include="images\si3.jpg" />
+    <Content Include="images\si4.jpg" />
+    <Content Include="images\sidenav_bg_hover.png" />
+    <Content Include="images\subnav_bg_hover.png" />
+    <Content Include="images\Sysnew.png" />
+    <Content Include="images\text-header.png" />
+    <Content Include="images\toyota.png" />
+    <Content Include="images\ui-icons_222222_256x240.png" />
+    <Content Include="images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="images\ui-icons_454545_256x240.png" />
+    <Content Include="images\ui-icons_616161_256x240.png" />
+    <Content Include="images\menuthumb-yaris.png" />
+    <Content Include="images\user.png" />
+    <Content Include="images\user_group.png" />
+    <Content Include="js\application.js" />
+    <Content Include="js\metro.min.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="MasterPage.Master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="images\tmv-logo.png" />
+    <Content Include="js\jquery\datepicker.css" />
+    <Content Include="js\jquery\datepicker.js" />
+    <Content Include="js\jquery\effect-shake.js" />
+    <Content Include="js\jquery\effect.js" />
+    <Content Include="js\jquery\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="js\jquery\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="js\jquery\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="js\jquery\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="js\jquery\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="js\jquery\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="js\jquery\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="js\jquery\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="js\jquery\images\ui-icons_222222_256x240.png" />
+    <Content Include="js\jquery\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="js\jquery\images\ui-icons_454545_256x240.png" />
+    <Content Include="js\jquery\images\ui-icons_888888_256x240.png" />
+    <Content Include="js\jquery\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="js\jquery\jquery-1.11.1.js" />
+    <Content Include="js\jquery\jquery-1.11.1.min.js" />
+    <Content Include="RadEditor\Basic.bak.xml" />
+    <Content Include="RadEditor\Basic.xml" />
+    <Content Include="RadEditor\easy.xml" />
+    <Content Include="User\UserInfo.aspx" />
+    <Content Include="User\CreateUser.aspx" />
+    <Content Include="User\UserProfile.aspx" />
+    <None Include="Web References\TMVEmailService\EmailService.disco" />
+    <None Include="Web References\TMVEmailService\EmailService.wsdl" />
+    <None Include="Web References\TMVEmailService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FINA.BusinessTripProvider\FINA.BusinessTripProvider.vbproj">
+      <Project>{F9F19592-8AAE-4107-BC58-0BE3A94978B3}</Project>
+      <Name>FINA.BusinessTripProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://192.168.2.103:8888/SendEmail/EmailService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\TMVEmailService\</RelPath>
+      <UpdateFromURL>http://192.168.2.103:8888/SendEmail/EmailService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>FINA_BusinessTrip_TMVEmailService_EmailService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Code\" />
+    <Folder Include="App_Data\" />
+    <Folder Include="Attachments\" />
+    <Folder Include="Export\Download\" />
+    <Folder Include="Import\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1690</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/FINA.BusinessTrip</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F9F19592-8AAE-4107-BC58-0BE3A94978B3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <AssemblyName>FINA.BusinessTripProvider</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>FINA.BusinessTripProvider.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>FINA.BusinessTripProvider.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Web.v12.2, Version=12.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FINA.BusinessTrip\Library\DevExpress.Web.v12.2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationBlocks.Data, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FINA.BusinessTrip\Library\Microsoft.ApplicationBlocks.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=11.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\FINA.BusinessTrip\Library\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Entity">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\CommonConstant.vb" />
+    <Compile Include="Common\CommonFunction.vb" />
+    <Compile Include="Common\Connection.vb" />
+    <Compile Include="Common\DropDownListInfo.vb" />
+    <Compile Include="Common\Null.vb" />
+    <Compile Include="Common\SqlDataProvider.vb" />
+    <Compile Include="tbl_WifiDevice\tblBTWifiDeviceInfo.vb" />
+    <Compile Include="tbl_WifiDevice\WifiDeviceProvider.vb" />
+    <Compile Include="mCountryGroup\mCountryGroupInfo.vb" />
+    <Compile Include="mCountryGroup\mCountryGroupProvider.vb" />
+    <Compile Include="mCompany\mCompanyInfo.vb" />
+    <Compile Include="mCompany\mCompanyProvider.vb" />
+    <Compile Include="mOraDailyRate\mOraDailyRateInfo.vb" />
+    <Compile Include="mOraDailyRate\mOraDailyRateProvider.vb" />
+    <Compile Include="mAirPeriod\mAirPeriodInfo.vb" />
+    <Compile Include="mAirPeriod\mAirPeriodProvider.vb" />
+    <Compile Include="mOraSupplier\mOraSupplierInfo.vb" />
+    <Compile Include="mOraSupplier\mOraSupplierProvider.vb" />
+    <Compile Include="mBatchName\mBatchNameInfo.vb" />
+    <Compile Include="mBatchName\mBatchNameProvider.vb" />
+    <Compile Include="Report\ReportInfo.vb" />
+    <Compile Include="tbl_mBudget\mBudgetPICInfo.vb" />
+    <Compile Include="tbl_mMovingTimeAllowance\mMovingTimeAllowanceInfo.vb" />
+    <Compile Include="tbl_mMovingTimeAllowance\mMovingTimeAllowanceProvider.vb" />
+    <Compile Include="tbl_mTitleGroup\mTitleGroupInfo.vb" />
+    <Compile Include="tbl_mTitleGroup\mTitleGroupProvider.vb" />
+    <Compile Include="Report\ReportProvider.vb" />
+    <Compile Include="tbl_mDestinationGroup\mDestinationGroupInfo.vb" />
+    <Compile Include="tbl_mDestinationGroup\mDestinationGroupProvider.vb" />
+    <Compile Include="tbl_AirTicket\AirTicketProvider.vb" />
+    <Compile Include="tbl_AirTicket\tblBTAirTicketInfo.vb" />
+    <Compile Include="tbl_mInvoiceItem\mInvoiceItemInfo.vb" />
+    <Compile Include="tbl_mInvoiceItem\mInvoiceItemProvider.vb" />
+    <Compile Include="tbl_Invoice\tblBTInvoiceInfo.vb" />
+    <Compile Include="tbl_Invoice\InvoiceProvider.vb" />
+    <Compile Include="tbl_Expense\tblBTExpenseOtherInfo.vb" />
+    <Compile Include="tbl_Expense\ExpenseProvider.vb" />
+    <Compile Include="tbl_Expense\tblBTExpenseInfo.vb" />
+    <Compile Include="tbl_Expense\tblBTExpenseRequestInfo.vb" />
+    <Compile Include="tbl_Expense\tblBTExpenseScheduleInfo.vb" />
+    <Compile Include="tbl_mBudget\mBudgetInfo.vb" />
+    <Compile Include="tbl_mBudget\mBudgetProvider.vb" />
+    <Compile Include="tbl_mCountry\mCountryInfo.vb" />
+    <Compile Include="tbl_mCountry\mCountryProvider.vb" />
+    <Compile Include="tbl_mDestination\mDestinationProvider.vb" />
+    <Compile Include="tbl_mDestination\mDestinationInfo.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="tbl_BusinessTrip\tblBTRegisterAttachmentInfo.vb" />
+    <Compile Include="tbl_BusinessTrip\tblBTRegisterScheduleInfo.vb" />
+    <Compile Include="tbl_BusinessTrip\tblBTRegisterRequestDetailsInfo.vb" />
+    <Compile Include="tbl_BusinessTrip\tblBTRegisterInfo.vb" />
+    <Compile Include="tbl_BusinessTrip\tblBTRegisterRequestInfo.vb" />
+    <Compile Include="tbl_BusinessTrip\BusinessTripProvider.vb" />
+    <Compile Include="tbl_Lookup\tbl_LookupInfo.vb" />
+    <Compile Include="tbl_Lookup\LookupProvider.vb" />
+    <Compile Include="tbl_mExpense\mExpenseProvider.vb" />
+    <Compile Include="tbl_mExpense\mExpenseInfo.vb" />
+    <Compile Include="tbl_mTimeKeeper\mTimeKeeperInfo.vb" />
+    <Compile Include="tbl_mTimeKeeper\mTimeKeeperProvider.vb" />
+    <Compile Include="tbl_Users\RoleTypeProvider.vb" />
+    <Compile Include="tbl_Users\RoleLevelProvider.vb" />
+    <Compile Include="tbl_Users\RoleType_Info.vb" />
+    <Compile Include="tbl_Users\RoleLevel_Info.vb" />
+    <Compile Include="tbl_Users\UserProvider.vb" />
+    <Compile Include="tbl_Users\SqlDataProvider.vb" />
+    <Compile Include="tbl_Users\tbl_UsersInfo.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,40 @@
+.foo {} /* W3C CSS validator likes CSS files to start with a class rather than a comment. Soooooo.... */
+
+/* This style sheet is intended to contain OFTEN CHANGED rules used when the TreeView control adapter is enabled. */
+/* Empty rules are provided merely as a convenience for your future use or experimentation. */
+
+.LinkButton {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('Images/but_right_blue.gif') no-repeat scroll top right;
+  color: #1b486a;
+  display: block;
+  float: left;
+  height: 29px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 12px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;
+}
+.LinkButton span {
+  background: url('Images/but_left_blue.gif') no-repeat left top;
+  display: block;
+  line-height: 29px;
+  padding: 0px 0px 0px 12px;
+  outline: none !important;
+  float:left;
+}
+.LinkButton:hover {
+  background-position: right bottom;
+  text-decoration:none !important
+}
+.LinkButton:hover span {
+  background-position: left bottom;
+  color: #1b486a;
+}

@@ -1,0 +1,6 @@
+D:\Working\Business Trip\Notification\bin\Debug\Notification.exe.config
+D:\Working\Business Trip\Notification\bin\Debug\Notification.exe
+D:\Working\Business Trip\Notification\bin\Debug\Notification.pdb
+D:\Working\Business Trip\Notification\obj\Debug\ResolveAssemblyReference.cache
+D:\Working\Business Trip\Notification\obj\Debug\Notification.exe
+D:\Working\Business Trip\Notification\obj\Debug\Notification.pdb

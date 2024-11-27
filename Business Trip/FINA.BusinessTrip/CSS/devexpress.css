@@ -1,0 +1,496 @@
+.dxgvControl_Office2010Black
+{
+    background: none !important;
+}
+
+.dxgvControl_Office2010Black > tbody > tr > td, .dxgvControl_Office2010Black > tr > td
+{
+    padding: 0;
+    overflow: auto;
+}
+
+table.dxgvTable_Office2010Black
+{
+    border: 1px solid #999 !important;
+}
+
+table tr td.dxgv
+{
+    color: #666;
+}
+
+table tr:hover > td.dxgv
+{
+    color: #000;
+    font-weight: bold;
+}
+
+table.dxgvTable_Office2010Black .dxgvHeader_Office2010Black:first-child, table td.dxgv:first-child
+{
+    border-left: none !important;
+}
+
+table.dxgvTable_Office2010Black .dxgvHeader_Office2010Black:last-child, table td.dxgv:last-child
+{
+    border-right: none !important;
+}
+
+.status-table table.dxgvTable_Office2010Black .dxgvHeader_Office2010Black:last-child
+{
+    border-right: 1px solid #484848 !important;
+}
+
+.dxgvControl_Office2010Black > tbody > tr > td > table, .dxgvControl_Office2010Black > tr > td > table
+{
+    border: none !important;
+}
+
+.dxgvControl_Office2010Black table
+{
+    margin: 0;
+    table-layout: auto;
+}
+
+.dxgvControl_Office2010Black table td
+{
+}
+
+table.dxgvControl_Office2010Black table table tr td
+{
+    border: none !important;
+}
+
+.dxgvPagerBottomPanel_Office2010Black table td
+{
+    border: none !important;
+}
+
+.dxgvPagerBottomPanel_Office2010Black table td.dxpSummary_Office2010Black, .dxgvPagerBottomPanel_Office2010Black table td.dxpPageNumber_Office2010Black
+{
+    width: 25px !important;
+}
+
+.dxgvPagerBottomPanel_Office2010Black table td.dxpSummary_Office2010Black:first-child
+{
+    width: 250px !important;
+}
+
+.dxpCtrl table tr td, .dxpComboBox_Office2010Black table tr td
+{
+    padding: 0 !important;
+}
+
+.dxpCtrl > table > tbody > tr > td:nth-child(1)
+{
+}
+
+.dxpCtrl > table > tbody > tr > td:nth-child(2), .dxpCtrl > table > tr > td:nth-child(2)
+{
+    width: auto !important;
+}
+
+.dxpCtrl > table > tbody > tr > td:nth-child(3), .dxpCtrl > table > tr > td:nth-child(3)
+{
+    width: 160px;
+}
+
+.dxpCtrl table tr td.dx
+{
+    width: 75px;
+}
+
+td.dxpPageNumber_Office2010Black
+{
+    padding: 0 5px !important;
+}
+
+table.dxeButtonEdit_Office2010Black + input + div table tr td
+{
+    padding: 0 !important;
+}
+
+.dxgvControl_Office2010Black table.dxeCalendar_Office2010Black tr td
+{
+    padding: 5px !important;
+}
+
+table.dxbebt tr td
+{
+    padding: 0px;
+}
+
+td.dxpSummary_Office2010Black
+{
+    width: 200px;
+}
+
+.dxgvControl_Office2010Black table tr td.dxpPageSizeItem_Office2010Black
+{
+    width: 50px !important;
+}
+
+td.dxpPageSizeItem_Office2010Black table td
+{
+    padding: 2px !important;
+}
+
+table.dxgvLoadingPanel_Office2010Black
+{
+    transition: none;
+    background-color: Transparent !important;
+    width: 32px !important;
+    border: none !important;
+}
+
+table.dxgvLoadingPanel_Office2010Black tr td
+{
+    border: none !important;
+    background: url('/images/dxr.gif') no-repeat center !important;
+    height: 100px !important;
+}
+
+.dxgvControl_Office2010Black, .dxgvDisabled_Office2010Black
+{
+    font: inherit !important;
+}
+
+.dxEditors_edtDropDown_Office2010Black
+{
+    width: 8px !important;
+    height: 12px !important;
+}
+
+.dxpCurrentPageNumber_Office2010Black
+{
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+}
+
+.dxgvPagerBottomPanel_Office2010Black div
+{
+    transition: none;
+}
+
+.dxgvHeader_Office2010Black td
+{
+    text-align: center;
+}
+
+.dxICheckBox_Office2010Black, .dxICheckBox
+{
+    transition: none;
+}
+
+.dxgv *
+{
+    transition: none;
+}
+
+.dxgv .dxlbd
+{
+    width: auto !important;
+    height: auto !important;
+}
+
+.dxgv table tr td.dxeListBoxItem_Office2010Black, .dxgv table tr td.dxeListBoxItemHover_Office2010Black
+{
+    padding: 2px 8px !important;
+}
+
+.dxgv > table > tbody > tr > td:nth-child(2), .dxgv > table > tr > td:nth-child(2)
+{
+    padding: 4px 0 0 4px !important;
+}
+
+table tr td.dxeButtonEditButton_Office2010Black
+{
+    padding: 0px 5px;
+}
+
+.dxmLite_Office2010Black.dxm-ltr, .dxmLite_Office2010Black.dxm-ltr *
+{
+    transition: none;
+}
+
+.dxgvFilterRow_Office2010Black td.dxgv
+{
+    background-color: #D7D8D8;
+    padding: 3px 5px !important;
+}
+
+.dxgv > table > tbody > tr > td:nth-child(1), .dxgv > table > tr > td:nth-child(1)
+{
+    padding: 1px 0px !important;
+}
+
+.dxgvFilterRow_Office2010Black .dxgv > table > tbody > tr > td.dxic, .dxgv > table > tr > td.dxic
+{
+    padding: 2px 3px !important;
+    background-color: #fff;
+}
+
+tr.dxgvDataRow_Office2010Black td.dxgvDetailButton_Office2010Black.dxgv, tr.dxgvDetailRow_Office2010Black td.dxgvIndentCell.dxgv, tr.dxgvEmptyDataRow_Office2010Black td.dxgvIndentCell.dxgv
+{
+    border-right: none !important;
+}
+
+tr.dxgvDataRow_Office2010Black td.dxgvDetailButton_Office2010Black.dxgv + td, tr.dxgvDetailRow_Office2010Black td.dxgvIndentCell.dxgv + td, tr.dxgvEmptyDataRow_Office2010Black td.dxgvIndentCell.dxgv + td
+{
+    border-left: none !important;
+}
+
+tr.dxgvDetailRow_Office2010Black td.dxgvDetailCell_Office2010Black.dxgv fieldset
+{
+    margin: 5px 0;
+    font-weight: normal;
+    margin-left: -23px;
+    padding: 10px;
+}
+
+tr.dxgvDetailRow_Office2010Black td.dxgvDetailCell_Office2010Black.dxgv fieldset *
+{
+    font-weight: normal;
+}
+
+tr.dxgvDetailRow_Office2010Black td.dxgvDetailCell_Office2010Black.dxgv fieldset table th
+{
+    background-color: #ccc;
+}
+
+tr.dxgvDetailRow_Office2010Black td.dxgvDetailCell_Office2010Black.dxgv fieldset table th, tr.dxgvDetailRow_Office2010Black td.dxgvDetailCell_Office2010Black.dxgv fieldset table td
+{
+    border: 1px solid #ccc !important;
+    padding: 5px;
+}
+
+span.dxWeb_edtCheckBoxUnchecked_Office2010Black
+{
+    background: none;
+}
+
+span.dxWeb_edtCheckBoxChecked_Office2010Black
+{
+    background-position: -145px -162px;
+}
+
+/*Date time picker*/
+.date-time-picker table, .spin-edit table, .grid-inside tr td.td-input.date-time-edit table
+{
+    margin: 0;
+}
+
+.date-time-picker table.dxeCalendar > tbody > tr:nth-child(1) > td, .date-time-picker table.dxeCalendar > tr:nth-child(1) > td, .date-time-picker table.dxeCalendar > tbody > tr > td > table > tbody > tr:nth-child(1) > td, .date-time-picker table.dxeCalendar > tr > td > table > tr:nth-child(1) > td, .grid-inside tr td.td-input.date-time-edit table.dxeCalendar > tbody > tr:nth-child(1) > td, .grid-inside tr td.td-input.date-time-edit table.dxeCalendar > tr:nth-child(1) > td, .grid-inside tr td.td-input.date-time-edit table.dxeCalendar > tbody > tr > td > table > tbody > tr:nth-child(1) > td, .grid-inside tr td.td-input.date-time-edit table.dxeCalendar > tr > td > table > tr:nth-child(1) > td
+{
+    padding: 0;
+}
+
+.date-time-picker div td.dxeCalendarHeader, .grid-inside tr td.td-input.date-time-edit div td.dxeCalendarHeader
+{
+    padding: 0 5px !important;
+    border-bottom: 1px solid #ccc !important;
+}
+
+.date-time-picker div td.dxeCalendarHeader > table:nth-child(1) > tbody > tr:nth-child(1) > td:nth-child(1), .date-time-picker div td.dxeCalendarHeader > table:nth-child(1) > tr:nth-child(1) > td:nth-child(1)
+{
+    /*padding-left: 10px;*/
+}
+
+.date-time-picker div .dxeCalendar td.dxMonthGridWithWeekNumbers, .grid-inside tr td.td-input.date-time-edit div .dxeCalendar td.dxMonthGridWithWeekNumbers
+{
+    padding: 5px 10px 8px 10px !important;
+}
+
+.date-time-picker div table.dxeButtonEditSys.dxeButtonEdit, .grid-inside tr td.td-input.date-time-edit div table.dxeButtonEditSys.dxeButtonEdit
+{
+    width: 90px !important;
+    margin: auto;
+}
+
+.ddl-mutiselect table.dxeButtonEditSys.dxeButtonEdit
+{
+    margin: 0;
+}
+
+.date-time-picker table.dxeButtonEditSys td.dxeButtonEditButton, .ddl-mutiselect table.dxeButtonEditSys td.dxeButtonEditButton
+{
+    padding: 0px 5px 0px 7px;
+}
+
+.grid-inside tr td.td-input.date-time-edit table.dxeButtonEditSys td.dxeButtonEditButton
+{
+    padding: 0;
+}
+
+
+.date-time-picker.time-picker table.dxeButtonEditSys td.dxeButtonEditButton, .spin-edit table.dxeButtonEditSys td.dxeButtonEditButton, .ddl-mutiselect table.dxeButtonEditSys td.dxeButtonEditButton, .grid-inside tr td.td-input.date-time-edit.time-picker table.dxeButtonEditSys td.dxeButtonEditButton
+{
+    padding: 4px 5px 4px 6px;
+}
+
+.date-time-picker div table.dxeButtonEditSys td.dxeButtonEditButton, .grid-inside tr td.td-input.date-time-edit div table.dxeButtonEditSys td.dxeButtonEditButton
+{
+    padding: 3px 3px 3px 5px;
+}
+
+.date-time-picker div table.dxeButtonEditSys td.dxic, .date-time-picker div table.dxeButtonEditSys td.dxeSBC, .date-time-picker.time-picker table.dxeButtonEditSys td.dxeSBC, .date-time-picker table.dxeButtonEditSys td.dxic, .spin-edit table.dxeButtonEditSys td.dxeSBC, .ddl-mutiselect table.dxeButtonEditSys td.dxeSBC, .grid-inside tr td.td-input.date-time-edit div table.dxeButtonEditSys td.dxic, .grid-inside tr td.td-input.date-time-edit div table.dxeButtonEditSys td.dxeSBC, .grid-inside tr td.td-input.date-time-edit.time-picker table.dxeButtonEditSys td.dxeSBC, .grid-inside tr td.td-input.date-time-edit table.dxeButtonEditSys td.dxic
+{
+    padding: 0;
+}
+
+.date-time-picker div table.dxeButtonEditSys td.dxic input[type='text'], .grid-inside tr td.td-input.date-time-edit div table.dxeButtonEditSys td.dxic input[type='text']
+{
+    padding: 5px 0 !important;
+    width: 100% !important;
+    text-align: center;
+}
+
+.date-time-picker table.dxeButtonEditSys td.dxic input[type='text'], .spin-edit table.dxeButtonEditSys td.dxic input[type='text'], .ddl-mutiselect table.dxeButtonEditSys td.dxic input[type='text'], .grid-inside tr td.td-input.date-time-edit table.dxeButtonEditSys td.dxic input[type='text']
+{
+    margin: 0;
+}
+
+.date-time-picker div td.dxeCalendarFooter, .grid-inside tr td.td-input.date-time-edit div td.dxeCalendarFooter
+{
+    border-top: 1px solid #ccc !important;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.date-time-picker div td.dxeCalendarFooter td.dxeCalendarButton, .grid-inside tr td.td-input.date-time-edit div td.dxeCalendarFooter td.dxeCalendarButton
+{
+    border: 1px solid gray !important;
+}
+
+.date-time-picker .dxeButtonEdit, .spin-edit .dxeButtonEdit, .ddl-mutiselect .dxeButtonEdit, .grid-inside tr td.td-input.date-time-edit .dxeButtonEdit
+{
+    border: 1px solid #ccc;
+}
+
+
+.date-time-picker .dxeButtonEdit:hover, .spin-edit .dxeButtonEdit:hover, .ddl-mutiselect .dxeButtonEdit:hover, .grid-inside tr td.td-input.date-time-edit .dxeButtonEdit:hover
+{
+    border-color: #999;
+    background-color: #FAFFBD;
+}
+
+.date-time-picker .dxeButtonEdit:focus, .spin-edit .dxeButtonEdit:focus, .ddl-mutiselect .dxeButtonEdit:focus, .grid-inside tr td.td-input.date-time-edit .dxeButtonEdit:focus
+{
+    border-color: #999;
+    background-color: #FAFFBD;
+    box-shadow: 0 0 5px #bbb;
+    -webkit-box-shadow: 0 0 5px #bbb;
+    -moz-box-shadow: 0 0 5px #bbb;
+}
+
+.date-time-picker .dxeButtonEditSys td.dxic, td.spin-edit table.dxeButtonEditSys td.dxic, td.ddl-mutiselect table.dxeButtonEditSys td.dxic, .grid-inside tr td.td-input.date-time-edit .dxeButtonEditSys td.dxic
+{
+    padding: 0;
+}
+
+.date-time-picker div > table > tbody > tr:nth-child(1) > td:nth-child(1), .date-time-picker div > table > tr:nth-child(1) > td:nth-child(1), .date-time-picker div > table > tbody > tr:nth-child(1) > td:nth-child(1) > table > tbody > tr > td, .date-time-picker div > table > tr:nth-child(1) > td:nth-child(1) > table > tr > td, .grid-inside tr td.td-input.date-time-edit div > table > tbody > tr:nth-child(1) > td:nth-child(1), .grid-inside tr td.td-input.date-time-edit div > table > tr:nth-child(1) > td:nth-child(1), .grid-inside tr td.td-input.date-time-edit div > table > tbody > tr:nth-child(1) > td:nth-child(1) > table > tbody > tr > td, .grid-inside tr td.td-input.date-time-edit div > table > tr:nth-child(1) > td:nth-child(1) > table > tr > td
+{
+    padding: 0;
+}
+
+
+.date-time-picker div table.dxbebt, .ddl-mutiselect table.dxbebt, .grid-inside tr td.td-input.date-time-edit div table.dxbebt
+{
+    width: auto !important;
+    margin: auto;
+}
+
+.date-time-picker div td.dxeCalendarDayHeader, .grid-inside tr td.td-input.date-time-edit div td.dxeCalendarDayHeader
+{
+    border-bottom: 1px solid #ccc !important;
+}
+
+td.spin-edit.first-time table.dxeButtonEditSys input[type="text"]
+{
+    width: 100% !important;
+    color: Red;
+}
+
+.date-time-picker.schedule-time .dxeButtonEditSys input[type="text"], .grid-inside tr td.td-input.date-time-edit.schedule-time .dxeButtonEditSys input[type="text"]
+{
+    width: 100% !important;
+}
+
+.date-time-picker .dxeButtonEditSys input[type="text"], td.spin-edit table.dxeButtonEditSys input[type="text"], td.ddl-mutiselect table.dxeButtonEditSys input[type="text"], .grid-inside tr td.td-input.date-time-edit .dxeButtonEditSys input[type="text"]
+{
+    width: 188px !important;
+}
+
+.grid-inside tr td.td-input.date-time-edit .dxeButtonEditSys input[type="text"]
+{
+    float: left;
+    width: 94% !important;
+}
+
+td.spin-edit.cc-edit table.dxeButtonEditSys input[type="text"]
+{
+    width: 89px !important;
+}
+
+td.spin-edit.inv-edit table.dxeButtonEditSys input[type="text"]
+{
+    width: 150px !important;
+}
+
+.date-time-picker .request-date.dxeButtonEditSys input[type="text"], .grid-inside tr td.td-input.date-time-edit .request-date.dxeButtonEditSys input[type="text"]
+{
+    width: 80px !important;
+}
+
+img.dxGridView_gvDetailCollapsedButton_Office2010Black
+{
+    background: url(/images/plus-inside.png) center top no-repeat;
+}
+
+img.dxGridView_gvDetailExpandedButton_Office2010Black
+{
+    background: url(/images/sub-inside.png) center center no-repeat;
+}
+
+.scrolling-table.dxgvControl_Office2010Black .dxgvTable_Office2010Black
+{
+    margin-top: -7px;
+}
+
+table.dxgvTable_Office2010Black thead th, table.dxgvTable_Office2010Black tbody td, table.dxgvTable_Office2010Black tfoot td, table.dxgvTable_Office2010Black th, table.dxgvTable_Office2010Black td
+{
+    border: 1px solid #ccc !important;
+}
+
+table.dxgvTable_Office2010Black
+{
+    border-collapse: collapse !important;
+}
+
+.ddl-mutiselect table td
+{
+    padding: 0;
+}
+
+.ddl-mutiselect table
+{
+    margin: 0;
+    left: auto !important;
+}
+
+.ddl-mutiselect table.dxeListBox .dxlbd
+{
+    width: auto !important;
+}
+
+.ddl-mutiselect table td.dxeDropDownWindow
+{
+    border: 1px solid #ccc !important;
+}
+
+.dxgvControl_Office2010Black .dxgvFooter_Office2010Black td.dxgv
+{
+    border: none !important;
+    font-weight: bold;
+    color: Red !important;
+}

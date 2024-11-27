@@ -1,0 +1,290 @@
+.foo {} /* W3C CSS validator likes CSS files to start with a class rather than a comment. Soooooo.... */
+
+/* This style sheet is intended to contain OFTEN CHANGED rules used when the TreeView control adapter is enabled. */
+/* Empty rules are provided merely as a convenience for your future use or experimentation. */
+.Button {
+    margin:0 7px 0 0;
+    background-color:#F9F9F9;
+    border-top:1px solid #BBBBBB;
+    border-left:1px solid #BBBBBB;
+    border-right:1px solid #AAAAAA;    
+    border-bottom:1px solid #AAAAAA;
+    font:0.846em/1 Arial,sans-serif;
+    line-height:19px;
+    text-decoration:none;
+    color:#336699;
+    cursor:pointer;
+    padding:3px 4px 3px 8px; /* Links */
+}
+.Button-Shadow  {
+    background:none repeat scroll 0 0 #F9F9F9;
+    border-bottom:0.23em solid #EEEEEE;
+    height:0.692em;
+    left:0;
+    overflow:hidden;
+    position:absolute;
+    right:0;
+    top:0;
+}
+/*.Button span {
+  background: url('Images/but_left_blue.gif') no-repeat left top;
+  display: block;
+  line-height: 29px;
+  padding: 0px 0px 0px 12px;
+  outline: none !important;
+  float:left;
+}*/
+.Button:hover {
+    background-color:#FFCCFF;
+    border:1px solid #0033FF;
+    color:#0033FF; 
+    cursor:pointer;
+    
+}
+.Button:hover span {
+  background-position: left bottom;
+  color: #1b486a;
+}
+.Button_grey {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('Images/but_right_grey.gif') no-repeat scroll top right;
+  color: #555;
+  display: block;
+  float: left;
+  height: 30px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 12px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;	
+}
+.Button_grey span {
+  background: url('Images/but_left_grey.gif') no-repeat left top;
+  display: block;
+  line-height: 30px;
+  padding: 0px 0px 0px 12px;
+  outline: none !important;
+  float:left;
+}
+.Button_grey:hover {
+  background-position: right bottom;
+  text-decoration:none !important
+}
+.Button_grey:hover span {
+  background-position: left bottom;
+  color: #333;
+}
+.Button_ok {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('Images/but_round_span_blue.gif') no-repeat scroll top right;
+  color: #1b486a;
+  display: block;
+  float: left;
+  height: 30px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 15px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;
+}
+.Button_ok span {
+  background: url('Images/but_round_ok_blue.gif') no-repeat left top;
+  display: block;
+  line-height: 30px;
+  padding: 0px 0px 0px 35px;
+  outline: none !important;
+  float:left;
+}
+.Button_ok:hover {
+  background-position: right bottom;
+  text-decoration:none !important
+}
+.Button_ok:hover span {
+  background-position: left bottom;
+  color: #1b486a;
+}
+.Button_notok {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('Images/but_round_span_blue.gif') no-repeat scroll top right;
+  color: #1b486a;
+  display: block;
+  float: left;
+  height: 30px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 15px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;
+}
+.Button_notok span {
+  background: url('Images/but_round_del_blue.gif') no-repeat left top;
+  display: block;
+  line-height: 30px;
+  padding: 0px 0px 0px 35px;
+  outline: none !important;
+  float:left;
+  font-style: italic;
+}
+.Button_notok:hover {
+  background-position: right bottom;
+  text-decoration:none !important
+}
+.Button_notok:hover span {
+  background-position: left bottom;
+  color: #1b486a;
+}
+.Button_grey_round {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('Images/but_round_span_grey.gif') no-repeat scroll top right;
+  color: #555;
+  display: block;
+  float: left;
+  height: 30px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 12px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;	
+}
+.Button_grey_round span {
+  background: url('Images/but_round_left_grey.gif') no-repeat left top;
+  display: block;
+  line-height: 30px;
+  padding: 0px 0px 0px 12px;
+  outline: none !important;
+  float:left;
+}
+.Button_grey_round:hover {
+  background-position: right bottom;
+  text-decoration:none !important
+}
+.Button_grey_round:hover span {
+  background-position: left bottom;
+  color: #333;
+}
+
+.btn
+{
+	border: none;
+	color: #fff;
+	display: inline-block; /*background-image: url("/images/btn-bg.png")*/
+	padding: 7px 15px 6px;
+	cursor: pointer;
+	background: url(/images/btn-primary-bg.png) left center repeat-x;
+	background-size: 2px 100%;
+	background-color: #325EA2;
+	outline: none;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	position: relative;
+}
+
+.btn i
+{
+    width: 16px;
+    height: 16px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+    position: relative;
+    top: -1px;
+    z-index: 1;
+}
+
+.btn input
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200%;
+    height: 100%;
+    opacity: 0;
+    filter: anpha(opacity=0);
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    left: -100%;
+    z-index: 10;
+}
+
+.btn *
+{
+    cursor: pointer;
+}
+
+.btn:hover
+{
+	/*background-image: url("/images/btn-bg-hover.png");*/ /*background-color: #CB3737;*/
+	box-shadow: 0 0 5px #666;
+	-webkit-box-shadow: 0 0 5px #666;
+	-moz-box-shadow: 0 0 5px #666;
+}
+
+.btn:active
+{
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+
+.btn.secondary
+{
+	background: url(/images/btn-secondary-bg.png) left center repeat-x;
+	background-size: 2px 100%;
+	background-color: #888;
+}
+
+.btn.inform 	
+{
+	background: none;
+	color: #000;
+	border: 1px solid #CCC;		
+	-webkit-box-shadow: inset 0 1px 1px rgba(255,255,255,0.1);
+	-moz-box-shadow: inset 0 1px 1px rgba(255,255,255,0.1);
+	box-shadow: inset 0 1px 1px rgba(255,255,255,0.1);
+	-ms-box-shadow: inset 0 1px 1px rgba(255,255,255,0.1);
+	-o-box-shadow: inset 0 1px 1px rgba(255,255,255,0.1);
+}
+
+.btn .login
+{
+    background-image: url(/images/login.png);
+}
+
+.btn.inform .add 
+{	
+	background: url(/images/plus.png) center center no-repeat;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+}
+
+.btn.inform:hover 
+{
+	background: url(/images/inform-btn.png) left center repeat;	
+}

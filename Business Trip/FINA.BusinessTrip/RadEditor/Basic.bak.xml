@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+  <tools name="MainToolbar" dockable="true" enabled="true">
+    <tool name="FindAndReplace" />
+    <tool separator="true"/>
+    <tool name="Undo" />
+    <tool name="Redo" />
+    <tool separator="true"/>
+    <tool name="Cut" />
+    <tool name="Copy" />
+    <tool name="Paste" shortcut="CTRL+!"/>
+  </tools>
+
+  <tools name="Formatting" enabled="true" dockable="true">
+    <tool name="Bold" />
+    <tool name="Italic" />
+    <tool name="Underline" />
+    <tool separator="true"/>
+    <tool name="ForeColor" />
+    <tool name="BackColor"/>
+    <tool separator="true"/>
+    <tool name="FontName"/>
+    <tool name="RealFontSize"/>
+  </tools>
+  
+  
+	<tools name="MainToolbar">
+    <tool name="Emoticons" Name="Emoticons" type="SplitButton" ItemsPerRow="3" PopupWidth="250px" PopupHeight="210px">
+		<item name="&lt;img src='/Portals/0/emoticons/1.gif' />" value="/Portals/0/emoticons/1.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/2.gif' />" value="/Portals/0/emoticons/2.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/3.gif' />" value="/Portals/0/emoticons/3.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/4.gif' />" value="/Portals/0/emoticons/4.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/5.gif' />" value="/Portals/0/emoticons/5.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/6.gif' />" value="/Portals/0/emoticons/6.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/7.gif' />" value="/Portals/0/emoticons/7.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/8.gif' />" value="/Portals/0/emoticons/8.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/9.gif' />" value="/Portals/0/emoticons/9.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/10.gif' />" value="/Portals/0/emoticons/10.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/11.gif' />" value="/Portals/0/emoticons/11.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/12.gif' />" value="/Portals/0/emoticons/12.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/13.gif' />" value="/Portals/0/emoticons/13.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/14.gif' />" value="/Portals/0/emoticons/14.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/15.gif' />" value="/Portals/0/emoticons/15.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/16.gif' />" value="/Portals/0/emoticons/16.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/17.gif' />" value="/Portals/0/emoticons/17.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/18.gif' />" value="/Portals/0/emoticons/18.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/19.gif' />" value="/Portals/0/emoticons/19.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/20.gif' />" value="/Portals/0/emoticons/20.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/21.gif' />" value="/Portals/0/emoticons/21.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/22.gif' />" value="/Portals/0/emoticons/22.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/23.gif' />" value="/Portals/0/emoticons/23.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/24.gif' />" value="/Portals/0/emoticons/24.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/25.gif' />" value="/Portals/0/emoticons/25.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/26.gif' />" value="/Portals/0/emoticons/26.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/27.gif' />" value="/Portals/0/emoticons/27.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/28.gif' />" value="/Portals/0/emoticons/28.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/29.gif' />" value="/Portals/0/emoticons/29.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/30.gif' />" value="/Portals/0/emoticons/30.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/31.gif' />" value="/Portals/0/emoticons/31.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/32.gif' />" value="/Portals/0/emoticons/32.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/33.gif' />" value="/Portals/0/emoticons/33.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/34.gif' />" value="/Portals/0/emoticons/34.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/35.gif' />" value="/Portals/0/emoticons/35.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/36.gif' />" value="/Portals/0/emoticons/36.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/37.gif' />" value="/Portals/0/emoticons/37.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/38.gif' />" value="/Portals/0/emoticons/38.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/39.gif' />" value="/Portals/0/emoticons/39.gif" />
+		<item name="&lt;img src='/Portals/0/emoticons/40.gif' />" value="/Portals/0/emoticons/40.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/41.gif' />" value="/Portals/0/emoticons/41.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/42.gif' />" value="/Portals/0/emoticons/42.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/43.gif' />" value="/Portals/0/emoticons/43.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/44.gif' />" value="/Portals/0/emoticons/44.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/45.gif' />" value="/Portals/0/emoticons/45.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/46.gif' />" value="/Portals/0/emoticons/46.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/47.gif' />" value="/Portals/0/emoticons/47.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/48.gif' />" value="/Portals/0/emoticons/48.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/49.gif' />" value="/Portals/0/emoticons/49.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/50.gif' />" value="/Portals/0/emoticons/50.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/51.gif' />" value="/Portals/0/emoticons/51.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/52.gif' />" value="/Portals/0/emoticons/52.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/53.gif' />" value="/Portals/0/emoticons/53.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/54.gif' />" value="/Portals/0/emoticons/54.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/55.gif' />" value="/Portals/0/emoticons/55.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/56.gif' />" value="/Portals/0/emoticons/56.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/57.gif' />" value="/Portals/0/emoticons/57.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/58.gif' />" value="/Portals/0/emoticons/58.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/59.gif' />" value="/Portals/0/emoticons/59.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/60.gif' />" value="/Portals/0/emoticons/60.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/61.gif' />" value="/Portals/0/emoticons/61.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/62.gif' />" value="/Portals/0/emoticons/62.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/63.gif' />" value="/Portals/0/emoticons/63.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/64.gif' />" value="/Portals/0/emoticons/64.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/65.gif' />" value="/Portals/0/emoticons/65.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/66.gif' />" value="/Portals/0/emoticons/66.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/67.gif' />" value="/Portals/0/emoticons/67.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/68.gif' />" value="/Portals/0/emoticons/68.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/69.gif' />" value="/Portals/0/emoticons/69.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/70.gif' />" value="/Portals/0/emoticons/70.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/71.gif' />" value="/Portals/0/emoticons/71.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/72.gif' />" value="/Portals/0/emoticons/72.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/73.gif' />" value="/Portals/0/emoticons/73.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/74.gif' />" value="/Portals/0/emoticons/74.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/75.gif' />" value="/Portals/0/emoticons/75.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/76.gif' />" value="/Portals/0/emoticons/76.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/77.gif' />" value="/Portals/0/emoticons/77.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/78.gif' />" value="/Portals/0/emoticons/78.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/79.gif' />" value="/Portals/0/emoticons/79.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/80.gif' />" value="/Portals/0/emoticons/80.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/81.gif' />" value="/Portals/0/emoticons/81.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/82.gif' />" value="/Portals/0/emoticons/82.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/83.gif' />" value="/Portals/0/emoticons/83.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/84.gif' />" value="/Portals/0/emoticons/84.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/85.gif' />" value="/Portals/0/emoticons/85.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/86.gif' />" value="/Portals/0/emoticons/86.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/87.gif' />" value="/Portals/0/emoticons/87.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/88.gif' />" value="/Portals/0/emoticons/88.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/89.gif' />" value="/Portals/0/emoticons/89.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/90.gif' />" value="/Portals/0/emoticons/90.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/91.gif' />" value="/Portals/0/emoticons/91.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/92.gif' />" value="/Portals/0/emoticons/92.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/93.gif' />" value="/Portals/0/emoticons/93.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/94.gif' />" value="/Portals/0/emoticons/94.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/95.gif' />" value="/Portals/0/emoticons/95.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/96.gif' />" value="/Portals/0/emoticons/96.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/97.gif' />" value="/Portals/0/emoticons/97.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/98.gif' />" value="/Portals/0/emoticons/98.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/99.gif' />" value="/Portals/0/emoticons/99.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/100.gif' />" value="/Portals/0/emoticons/100.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/101.gif' />" value="/Portals/0/emoticons/101.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/102.gif' />" value="/Portals/0/emoticons/102.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/103.gif' />" value="/Portals/0/emoticons/103.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/104.gif' />" value="/Portals/0/emoticons/104.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/105.gif' />" value="/Portals/0/emoticons/105.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/106.gif' />" value="/Portals/0/emoticons/106.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/107.gif' />" value="/Portals/0/emoticons/107.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/108.gif' />" value="/Portals/0/emoticons/108.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/109.gif' />" value="/Portals/0/emoticons/109.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/110.gif' />" value="/Portals/0/emoticons/110.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/111.gif' />" value="/Portals/0/emoticons/111.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/112.gif' />" value="/Portals/0/emoticons/112.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/113.gif' />" value="/Portals/0/emoticons/113.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/114.gif' />" value="/Portals/0/emoticons/114.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/115.gif' />" value="/Portals/0/emoticons/115.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/116.gif' />" value="/Portals/0/emoticons/116.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/117.gif' />" value="/Portals/0/emoticons/117.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/118.gif' />" value="/Portals/0/emoticons/118.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/119.gif' />" value="/Portals/0/emoticons/119.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/120.gif' />" value="/Portals/0/emoticons/120.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/121.gif' />" value="/Portals/0/emoticons/121.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/122.gif' />" value="/Portals/0/emoticons/122.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/123.gif' />" value="/Portals/0/emoticons/123.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/124.gif' />" value="/Portals/0/emoticons/124.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/125.gif' />" value="/Portals/0/emoticons/125.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/126.gif' />" value="/Portals/0/emoticons/126.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/127.gif' />" value="/Portals/0/emoticons/127.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/128.gif' />" value="/Portals/0/emoticons/128.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/129.gif' />" value="/Portals/0/emoticons/129.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/130.gif' />" value="/Portals/0/emoticons/130.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/131.gif' />" value="/Portals/0/emoticons/131.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/132.gif' />" value="/Portals/0/emoticons/132.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/133.gif' />" value="/Portals/0/emoticons/133.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/134.gif' />" value="/Portals/0/emoticons/134.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/135.gif' />" value="/Portals/0/emoticons/135.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/136.gif' />" value="/Portals/0/emoticons/136.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/137.gif' />" value="/Portals/0/emoticons/137.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/138.gif' />" value="/Portals/0/emoticons/138.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/139.gif' />" value="/Portals/0/emoticons/139.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/140.gif' />" value="/Portals/0/emoticons/140.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/141.gif' />" value="/Portals/0/emoticons/141.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/142.gif' />" value="/Portals/0/emoticons/142.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/143.gif' />" value="/Portals/0/emoticons/143.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/144.gif' />" value="/Portals/0/emoticons/144.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/145.gif' />" value="/Portals/0/emoticons/145.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/146.gif' />" value="/Portals/0/emoticons/146.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/147.gif' />" value="/Portals/0/emoticons/147.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/148.gif' />" value="/Portals/0/emoticons/148.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/149.gif' />" value="/Portals/0/emoticons/149.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/150.gif' />" value="/Portals/0/emoticons/150.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/151.gif' />" value="/Portals/0/emoticons/151.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/152.gif' />" value="/Portals/0/emoticons/152.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/153.gif' />" value="/Portals/0/emoticons/153.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/154.gif' />" value="/Portals/0/emoticons/154.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/155.gif' />" value="/Portals/0/emoticons/155.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/156.gif' />" value="/Portals/0/emoticons/156.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/157.gif' />" value="/Portals/0/emoticons/157.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/158.gif' />" value="/Portals/0/emoticons/158.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/159.gif' />" value="/Portals/0/emoticons/159.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/160.gif' />" value="/Portals/0/emoticons/160.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/161.gif' />" value="/Portals/0/emoticons/161.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/162.gif' />" value="/Portals/0/emoticons/162.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/163.gif' />" value="/Portals/0/emoticons/163.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/164.gif' />" value="/Portals/0/emoticons/164.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/165.gif' />" value="/Portals/0/emoticons/165.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/166.gif' />" value="/Portals/0/emoticons/166.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/167.gif' />" value="/Portals/0/emoticons/167.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/168.gif' />" value="/Portals/0/emoticons/168.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/169.gif' />" value="/Portals/0/emoticons/169.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/170.gif' />" value="/Portals/0/emoticons/170.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/171.gif' />" value="/Portals/0/emoticons/171.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/172.gif' />" value="/Portals/0/emoticons/172.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/173.gif' />" value="/Portals/0/emoticons/173.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/174.gif' />" value="/Portals/0/emoticons/174.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/175.gif' />" value="/Portals/0/emoticons/175.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/176.gif' />" value="/Portals/0/emoticons/176.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/177.gif' />" value="/Portals/0/emoticons/177.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/178.gif' />" value="/Portals/0/emoticons/178.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/179.gif' />" value="/Portals/0/emoticons/179.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/180.gif' />" value="/Portals/0/emoticons/180.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/181.gif' />" value="/Portals/0/emoticons/181.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/182.gif' />" value="/Portals/0/emoticons/182.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/183.gif' />" value="/Portals/0/emoticons/183.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/184.gif' />" value="/Portals/0/emoticons/184.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/185.gif' />" value="/Portals/0/emoticons/185.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/186.gif' />" value="/Portals/0/emoticons/186.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/187.gif' />" value="/Portals/0/emoticons/187.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/188.gif' />" value="/Portals/0/emoticons/188.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/189.gif' />" value="/Portals/0/emoticons/189.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/190.gif' />" value="/Portals/0/emoticons/190.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/191.gif' />" value="/Portals/0/emoticons/191.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/192.gif' />" value="/Portals/0/emoticons/192.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/193.gif' />" value="/Portals/0/emoticons/193.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/194.gif' />" value="/Portals/0/emoticons/194.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/195.gif' />" value="/Portals/0/emoticons/195.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/196.gif' />" value="/Portals/0/emoticons/196.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/197.gif' />" value="/Portals/0/emoticons/197.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/198.gif' />" value="/Portals/0/emoticons/198.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/199.gif' />" value="/Portals/0/emoticons/199.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/200.gif' />" value="/Portals/0/emoticons/200.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/201.gif' />" value="/Portals/0/emoticons/201.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/202.gif' />" value="/Portals/0/emoticons/202.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/203.gif' />" value="/Portals/0/emoticons/203.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/204.gif' />" value="/Portals/0/emoticons/204.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/205.gif' />" value="/Portals/0/emoticons/205.gif"/>
+		<item name="&lt;img src='/Portals/0/emoticons/206.gif' />" value="/Portals/0/emoticons/206.gif"/>
+    </tool>
+  </tools>
+
+  <cssFiles>
+    <item name="~/App_Themes/Default/CustomStyles.css" />
+  </cssFiles>
+
+</root>
